@@ -1,0 +1,23 @@
+{
+  "name": "ats-wdio-bidi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@wdio/browserstack-service": "^9.11.0",
+    "@wdio/cli": "^9.11.0",
+    "@wdio/selenium-standalone-service": "^8.15.0",
+    "selenium-webdriver": "^4.29.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^9.11.0",
+    "@wdio/mocha-framework": "^9.11.0",
+    "@wdio/spec-reporter": "^9.11.0"
+  }
+}
