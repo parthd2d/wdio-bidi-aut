@@ -12,7 +12,7 @@ exports.config = {
     ],
     user: process.env.BROWSERSTACK_USERNAME ||"BROWSERSTACK_USERNAME",
     key: process.env.BROWSERSTACK_ACCESS_KEY || "BROWSERSTACK_ACCESS_KEY",
-    hostname: "hub.browserstack.com",
+    hostname: "hub-ft.browserstack.com",
     exclude: [],
     maxInstances: 10,
     capabilities: [{
@@ -22,7 +22,7 @@ exports.config = {
         os: 'Windows',
         osVersion: '10',
         seleniumBidi: true,
-        'seleniumVersion': '4.20.0',
+        // 'seleniumVersion': '4.20.0',
       },
     }],
     services: [
